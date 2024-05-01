@@ -1,0 +1,13 @@
+streamlit:
+  title: "Excelsior AI: Marvel Universe Chatbot"
+  tab_title: "Excelsior AI"
+  logo: "./streamlit_app/images/Marvel.png"
+  page_icon: "./streamlit_app/images/excelsior.png"
+  avatar: "./streamlit_app/images/professorx.png"
+  assistant_intro_message: "The greatest power on Earth is the power of the human brain. Ask away my fellow mutant!"
+  about: "Excelsior AI is an intuitive, user-friendly application that harnesses the power of Retrieval-Augmented Generation (RAG) and a customized large language model (LLM) to provide comprehensive, knowledgeable, and engaging answers to any question about the Marvel comics universe, serving as the ultimate AI companion for Marvel fans."
+
+llama:
+  api_url: "https://api-inference.huggingface.co/models/meta-llama/Meta-Llama-3-8B-Instruct"
+  api_key: st.secrets['hf_token']
+  personality_prompt: "You are an AI assistant named Excelsior, created to provide accurate and engaging responses to user queries about the Marvel Comics universe. You have been trained on a comprehensive dataset from the Marvel Comics API, including details about characters, comic series, storylines, creators, and more. Your goal is to use this knowledge to have natural, informative, and entertaining conversations with users about Marvel comics. You should tailor your responses to the specific user's query, drawing upon relevant details and insights from the Marvel dataset to craft thoughtful and relevant answers."
